@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-06T06:37:00.116Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="OlshD796oHPmIZMJNPO6" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-06T06:45:13.532Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="wXXVsp_2uefkapT3cm_d" version="21.0.2" type="github">
   <diagram name="第 1 页" id="kL6EzJSuzY5aewOHK-CU">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,52 +8,76 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sZ0TL5if-_XfeQ39XU4O-1" value="spice_usb_device_widget_constructed()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="130" y="152" width="390" height="40" as="geometry" />
+          <mxGeometry x="216" y="487" width="390" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sZ0TL5if-_XfeQ39XU4O-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sZ0TL5if-_XfeQ39XU4O-3" target="sZ0TL5if-_XfeQ39XU4O-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sZ0TL5if-_XfeQ39XU4O-3" value="spice_usb_device_manager_get_devices()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="130" y="252" width="390" height="40" as="geometry" />
+          <mxGeometry x="216" y="587" width="390" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sZ0TL5if-_XfeQ39XU4O-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sZ0TL5if-_XfeQ39XU4O-5" target="sZ0TL5if-_XfeQ39XU4O-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sZ0TL5if-_XfeQ39XU4O-5" value="spice_usb_device_manager_get_devices_with_filter()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="75" y="352" width="500" height="40" as="geometry" />
+          <mxGeometry x="161" y="687" width="500" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sZ0TL5if-_XfeQ39XU4O-7" value="spice_usb_device_manager_get_devices()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="130" y="452" width="390" height="40" as="geometry" />
+          <mxGeometry x="216" y="787" width="390" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sZ0TL5if-_XfeQ39XU4O-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sZ0TL5if-_XfeQ39XU4O-9" target="sZ0TL5if-_XfeQ39XU4O-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sZ0TL5if-_XfeQ39XU4O-9" value="&lt;span style=&quot;font-weight: 400; font-size: 15px;&quot;&gt;解析传入的过滤规则&lt;br&gt;调官方的usbredir设备过滤函数&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="650" y="442" width="220" height="60" as="geometry" />
+          <mxGeometry x="736" y="777" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sZ0TL5if-_XfeQ39XU4O-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sZ0TL5if-_XfeQ39XU4O-11" target="sZ0TL5if-_XfeQ39XU4O-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sZ0TL5if-_XfeQ39XU4O-11" value="&lt;span style=&quot;font-weight: 400; font-size: 15px;&quot;&gt;把过滤规则为NULL调用下面的&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="650" y="342" width="220" height="60" as="geometry" />
+          <mxGeometry x="736" y="677" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sZ0TL5if-_XfeQ39XU4O-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sZ0TL5if-_XfeQ39XU4O-13" target="sZ0TL5if-_XfeQ39XU4O-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sZ0TL5if-_XfeQ39XU4O-13" value="&lt;span style=&quot;font-weight: 400; font-size: 15px;&quot;&gt;注册设备拔插信号，&lt;br&gt;创建dialog面板&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="650" y="142" width="220" height="60" as="geometry" />
+          <mxGeometry x="736" y="477" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sZ0TL5if-_XfeQ39XU4O-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sZ0TL5if-_XfeQ39XU4O-15" target="sZ0TL5if-_XfeQ39XU4O-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sZ0TL5if-_XfeQ39XU4O-15" value="spice_usb_device_widget_class_init()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="130" y="50" width="390" height="40" as="geometry" />
+          <mxGeometry x="216" y="385" width="390" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sZ0TL5if-_XfeQ39XU4O-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sZ0TL5if-_XfeQ39XU4O-17" target="sZ0TL5if-_XfeQ39XU4O-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sZ0TL5if-_XfeQ39XU4O-17" value="&lt;span style=&quot;font-weight: 400; font-size: 15px;&quot;&gt;类初始化的时候&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="650" y="40" width="220" height="60" as="geometry" />
+          <mxGeometry x="736" y="375" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sZ0TL5if-_XfeQ39XU4O-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sZ0TL5if-_XfeQ39XU4O-19" target="sZ0TL5if-_XfeQ39XU4O-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sZ0TL5if-_XfeQ39XU4O-19" value="spice_usb_device_widget_new()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="216" y="291" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sZ0TL5if-_XfeQ39XU4O-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sZ0TL5if-_XfeQ39XU4O-21" target="sZ0TL5if-_XfeQ39XU4O-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sZ0TL5if-_XfeQ39XU4O-21" value="实例化SpiceUsbDeviceWidget类" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;html=1;fontSize=14;fontStyle=0;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="736" y="281" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sZ0TL5if-_XfeQ39XU4O-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sZ0TL5if-_XfeQ39XU4O-23" target="sZ0TL5if-_XfeQ39XU4O-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sZ0TL5if-_XfeQ39XU4O-23" value="virt_viewer_session_spice_usb_device_selection()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="169" y="200" width="484" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sZ0TL5if-_XfeQ39XU4O-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sZ0TL5if-_XfeQ39XU4O-27" target="sZ0TL5if-_XfeQ39XU4O-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sZ0TL5if-_XfeQ39XU4O-27" value="virt_viewer_session_spice_class_init()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;labelBackgroundColor=none;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="220.5" y="110" width="381" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
