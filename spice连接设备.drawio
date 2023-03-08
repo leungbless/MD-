@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-03-08T02:47:56.415Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="ZUvv-mbCrieJLC6uS-Zy" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-08T03:17:26.899Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="UCQjTTTgTBdREPQT2RQB" version="21.0.2" type="github">
   <diagram name="第 1 页" id="YNmNvKPwky28gFezFMLu">
-    <mxGraphModel dx="2336" dy="1973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4995" dy="2068" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="DnNnTcF-sKBcE2seIWBp-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="DnNnTcF-sKBcE2seIWBp-1" target="DnNnTcF-sKBcE2seIWBp-33" edge="1">
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DnNnTcF-sKBcE2seIWBp-1" target="DnNnTcF-sKBcE2seIWBp-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DnNnTcF-sKBcE2seIWBp-1" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 11.3pt;&quot;&gt;&lt;font face=&quot;Lucida Console&quot;&gt;spice_usbredir_channel_open_device()&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -32,49 +32,65 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DnNnTcF-sKBcE2seIWBp-8" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 11.3pt;&quot;&gt;&lt;font face=&quot;Lucida Console&quot;&gt;spice_usb_device_manager_check_redir_on_connect()&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-530" y="880" width="470" height="50" as="geometry" />
+          <mxGeometry x="-646" y="880" width="470" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DnNnTcF-sKBcE2seIWBp-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="DnNnTcF-sKBcE2seIWBp-10" target="DnNnTcF-sKBcE2seIWBp-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DnNnTcF-sKBcE2seIWBp-10" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 11.3pt;&quot;&gt;&lt;font face=&quot;Lucida Console&quot;&gt;_spice_usb_device_manager_connect_device_async()&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="880" width="460" height="50" as="geometry" />
+          <mxGeometry x="235" y="880" width="460" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DnNnTcF-sKBcE2seIWBp-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DnNnTcF-sKBcE2seIWBp-12" target="DnNnTcF-sKBcE2seIWBp-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DnNnTcF-sKBcE2seIWBp-12" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 11.3pt;&quot;&gt;&lt;font face=&quot;Lucida Console&quot;&gt;channel_new()&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-397.5" y="760" width="205" height="50" as="geometry" />
+          <mxGeometry x="-513.5" y="760" width="205" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DnNnTcF-sKBcE2seIWBp-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DnNnTcF-sKBcE2seIWBp-14" target="DnNnTcF-sKBcE2seIWBp-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DnNnTcF-sKBcE2seIWBp-14" target="3MBLwee1-4Opxzsq8bTA-92">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-411" y="690" />
+              <mxPoint x="-1045" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DnNnTcF-sKBcE2seIWBp-14" target="3MBLwee1-4Opxzsq8bTA-122">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-411" y="690" />
+              <mxPoint x="-107" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="DnNnTcF-sKBcE2seIWBp-14" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 11.3pt;&quot;&gt;&lt;font face=&quot;Lucida Console&quot;&gt;spice_usb_device_manager_initable_init()&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-505" y="640" width="420" height="50" as="geometry" />
+          <mxGeometry x="-621" y="555" width="420" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DnNnTcF-sKBcE2seIWBp-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DnNnTcF-sKBcE2seIWBp-16" target="DnNnTcF-sKBcE2seIWBp-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DnNnTcF-sKBcE2seIWBp-16" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 11.3pt;&quot;&gt;&lt;font face=&quot;Lucida Console&quot;&gt;spice_usb_device_manager_initable_iface_init()&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-530" y="520" width="470" height="50" as="geometry" />
+          <mxGeometry x="-646" y="385" width="470" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DnNnTcF-sKBcE2seIWBp-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DnNnTcF-sKBcE2seIWBp-18" target="DnNnTcF-sKBcE2seIWBp-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DnNnTcF-sKBcE2seIWBp-18" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 11.3pt;&quot;&gt;&lt;font face=&quot;Lucida Console&quot;&gt;spice_usb_device_manager_connect_device_async()&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="760" width="460" height="50" as="geometry" />
+          <mxGeometry x="235" y="760" width="460" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DnNnTcF-sKBcE2seIWBp-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DnNnTcF-sKBcE2seIWBp-20" target="DnNnTcF-sKBcE2seIWBp-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DnNnTcF-sKBcE2seIWBp-20" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 11.3pt;&quot;&gt;&lt;font face=&quot;Lucida Console&quot;&gt;checkbox_clicked_cb()&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="165" y="640" width="250" height="50" as="geometry" />
+          <mxGeometry x="340" y="640" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DnNnTcF-sKBcE2seIWBp-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DnNnTcF-sKBcE2seIWBp-22" target="DnNnTcF-sKBcE2seIWBp-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DnNnTcF-sKBcE2seIWBp-22" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 11.3pt;&quot;&gt;&lt;font face=&quot;Lucida Console&quot;&gt;device_added_cb()&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="165" y="520" width="250" height="50" as="geometry" />
+          <mxGeometry x="340" y="520" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DnNnTcF-sKBcE2seIWBp-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="DnNnTcF-sKBcE2seIWBp-24" target="DnNnTcF-sKBcE2seIWBp-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -96,7 +112,7 @@
           <mxGeometry x="-125" y="1170" width="270" height="90" as="geometry" />
         </mxCell>
         <mxCell id="DnNnTcF-sKBcE2seIWBp-33" value="&lt;font style=&quot;font-weight: normal; font-size: 20px;&quot;&gt;函数流程&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" parent="1" vertex="1">
-          <mxGeometry x="-280" y="1620" width="580" height="620" as="geometry" />
+          <mxGeometry x="490" y="1490" width="580" height="620" as="geometry" />
         </mxCell>
         <mxCell id="DnNnTcF-sKBcE2seIWBp-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="DnNnTcF-sKBcE2seIWBp-33" source="DnNnTcF-sKBcE2seIWBp-36" target="DnNnTcF-sKBcE2seIWBp-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -132,19 +148,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3MBLwee1-4Opxzsq8bTA-3" value="spice_usb_device_widget_constructed()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Lucida Console;" vertex="1" parent="1">
-          <mxGeometry x="95" y="230" width="390" height="40" as="geometry" />
+          <mxGeometry x="270" y="230" width="390" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3MBLwee1-4Opxzsq8bTA-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-5" target="3MBLwee1-4Opxzsq8bTA-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3MBLwee1-4Opxzsq8bTA-5" value="spice_usb_device_manager_get_devices()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Lucida Console;" vertex="1" parent="1">
-          <mxGeometry x="680" y="230" width="390" height="40" as="geometry" />
+          <mxGeometry x="855" y="230" width="390" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3MBLwee1-4Opxzsq8bTA-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-7" target="3MBLwee1-4Opxzsq8bTA-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3MBLwee1-4Opxzsq8bTA-7" value="spice_usb_device_manager_get_devices_with_filter()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Lucida Console;" vertex="1" parent="1">
-          <mxGeometry x="625" y="330" width="500" height="40" as="geometry" />
+          <mxGeometry x="800" y="330" width="500" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3MBLwee1-4Opxzsq8bTA-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-10" target="3MBLwee1-4Opxzsq8bTA-3">
           <mxGeometry relative="1" as="geometry" />
@@ -155,67 +171,229 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3MBLwee1-4Opxzsq8bTA-10" value="spice_usb_device_manager_get_devices()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Lucida Console;" vertex="1" parent="1">
-          <mxGeometry x="680" y="440" width="390" height="40" as="geometry" />
+          <mxGeometry x="855" y="440" width="390" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3MBLwee1-4Opxzsq8bTA-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-12" target="3MBLwee1-4Opxzsq8bTA-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3MBLwee1-4Opxzsq8bTA-12" value="&lt;span style=&quot;font-weight: 400; font-size: 15px;&quot;&gt;解析传入的过滤规则&lt;br&gt;调官方的usbredir设备过滤函数&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="430" width="220" height="60" as="geometry" />
+          <mxGeometry x="1375" y="430" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3MBLwee1-4Opxzsq8bTA-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-14" target="3MBLwee1-4Opxzsq8bTA-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3MBLwee1-4Opxzsq8bTA-14" value="&lt;span style=&quot;font-weight: 400; font-size: 15px;&quot;&gt;把过滤规则为NULL调用下面的&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="320" width="220" height="60" as="geometry" />
+          <mxGeometry x="1375" y="320" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3MBLwee1-4Opxzsq8bTA-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-16" target="3MBLwee1-4Opxzsq8bTA-3">
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-16" target="3MBLwee1-4Opxzsq8bTA-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3MBLwee1-4Opxzsq8bTA-16" value="&lt;span style=&quot;font-weight: 400; font-size: 15px;&quot;&gt;注册设备拔插信号，&lt;br&gt;创建dialog面板&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-240" y="220" width="220" height="60" as="geometry" />
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-16" value="&lt;span style=&quot;font-weight: 400; font-size: 15px;&quot;&gt;注册设备拔插信号，创建dialog面板，&lt;br&gt;每次打开勾选设备透传的窗口都会执行这个函数&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="220" width="350" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3MBLwee1-4Opxzsq8bTA-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-18" target="3MBLwee1-4Opxzsq8bTA-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3MBLwee1-4Opxzsq8bTA-18" value="spice_usb_device_widget_class_init()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Lucida Console;" vertex="1" parent="1">
-          <mxGeometry x="95" y="115" width="390" height="40" as="geometry" />
+          <mxGeometry x="270" y="115" width="390" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3MBLwee1-4Opxzsq8bTA-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-20" target="3MBLwee1-4Opxzsq8bTA-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3MBLwee1-4Opxzsq8bTA-20" value="&lt;span style=&quot;font-weight: 400; font-size: 15px;&quot;&gt;类初始化的时候&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="597" y="105" width="220" height="60" as="geometry" />
+          <mxGeometry x="772" y="105" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3MBLwee1-4Opxzsq8bTA-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-22" target="3MBLwee1-4Opxzsq8bTA-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3MBLwee1-4Opxzsq8bTA-22" value="spice_usb_device_widget_new()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Lucida Console;" vertex="1" parent="1">
-          <mxGeometry x="95" y="21" width="390" height="40" as="geometry" />
+          <mxGeometry x="270" y="21" width="390" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3MBLwee1-4Opxzsq8bTA-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-24" target="3MBLwee1-4Opxzsq8bTA-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3MBLwee1-4Opxzsq8bTA-24" value="实例化SpiceUsbDeviceWidget类" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;html=1;fontSize=14;fontStyle=0;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="597" y="11" width="220" height="60" as="geometry" />
+          <mxGeometry x="772" y="11" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3MBLwee1-4Opxzsq8bTA-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-26" target="3MBLwee1-4Opxzsq8bTA-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3MBLwee1-4Opxzsq8bTA-26" value="virt_viewer_session_spice_usb_device_selection()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#CCFFCC;fontFamily=Lucida Console;" vertex="1" parent="1">
-          <mxGeometry x="48" y="-70" width="484" height="40" as="geometry" />
+          <mxGeometry x="223" y="-70" width="484" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3MBLwee1-4Opxzsq8bTA-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-28" target="3MBLwee1-4Opxzsq8bTA-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3MBLwee1-4Opxzsq8bTA-28" value="virt_viewer_session_spice_class_init()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;labelBackgroundColor=none;fillColor=#CCFFCC;fontFamily=Lucida Console;" vertex="1" parent="1">
-          <mxGeometry x="99.5" y="-160" width="381" height="40" as="geometry" />
+          <mxGeometry x="274.5" y="-160" width="381" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3MBLwee1-4Opxzsq8bTA-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-32" target="DnNnTcF-sKBcE2seIWBp-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3MBLwee1-4Opxzsq8bTA-32" value="对没有过滤掉的设备创建dialog&lt;br&gt;（就是一个选择框+label）" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;html=1;fontSize=15;fontStyle=0;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="510" y="515" width="220" height="60" as="geometry" />
+          <mxGeometry x="685" y="515" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-39" target="DnNnTcF-sKBcE2seIWBp-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-39" value="在界面上勾选设备透传的回调函数" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;html=1;fontSize=15;fontStyle=0;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="685" y="635" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-63" target="3MBLwee1-4Opxzsq8bTA-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-63" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;g_udev_client_list_devices()&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="-2313" y="1528.09" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-65" target="3MBLwee1-4Opxzsq8bTA-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-65" target="3MBLwee1-4Opxzsq8bTA-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-65" value="&lt;font color=&quot;#080808&quot; style=&quot;font-size: 15px;&quot;&gt;g_udev_client_initable_init&lt;/font&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 15px;&quot;&gt;()&lt;/span&gt;&lt;font color=&quot;#080808&quot; style=&quot;font-size: 15px;&quot;&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="-2623" y="1338.09" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-67" target="3MBLwee1-4Opxzsq8bTA-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-67" value="&lt;font color=&quot;#080808&quot; style=&quot;font-size: 15px;&quot;&gt;handle_dev_change&lt;/font&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 15px;&quot;&gt;()&lt;/span&gt;&lt;font color=&quot;#080808&quot; style=&quot;font-size: 15px;&quot;&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="-2023" y="1338.09" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-69" target="3MBLwee1-4Opxzsq8bTA-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-69" value="&lt;font color=&quot;#080808&quot; style=&quot;font-size: 15px;&quot;&gt;libusb_get_device_list&lt;/font&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 15px;&quot;&gt;()&lt;/span&gt;&lt;font color=&quot;#080808&quot; style=&quot;font-size: 15px;&quot;&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="-1822" y="1528.09" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-71" target="3MBLwee1-4Opxzsq8bTA-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-71" value="获得当前连接到系统的 USB 设备列表" style="text;strokeColor=none;fillColor=#99CCFF;html=1;fontSize=18;fontStyle=0;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-1383" y="1525.59" width="330" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-74" target="3MBLwee1-4Opxzsq8bTA-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-73" value="返回除USB Root HUB的USB设备个数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;" vertex="1" connectable="0" parent="3MBLwee1-4Opxzsq8bTA-72">
+          <mxGeometry x="0.0282" y="-3" relative="1" as="geometry">
+            <mxPoint x="48" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-74" value="g_udev_skip_search&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 15px;&quot;&gt;()&lt;/span&gt;&lt;font color=&quot;#080808&quot; style=&quot;font-size: 15px;&quot;&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="-1822" y="1658.09" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-76" target="3MBLwee1-4Opxzsq8bTA-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-76" value="跳过USB的 root hub" style="text;strokeColor=none;fillColor=#99CCFF;html=1;fontSize=18;fontStyle=0;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-1383" y="1655.59" width="330" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-78" target="3MBLwee1-4Opxzsq8bTA-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-78" value="调用g_udev_client_list_devices函数&lt;br&gt;初始化设备列表，在初始化的时候&lt;br&gt;只有执行libusb_get_device_list()失败，&lt;br&gt;才会返回一个负值，&lt;br&gt;然后g_udev_client_initable_init()也随之初始化失败" style="text;strokeColor=none;fillColor=#99CCFF;html=1;fontSize=18;fontStyle=0;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-3174" y="1305.59" width="430" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-80" target="3MBLwee1-4Opxzsq8bTA-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-80" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 15px;&quot;&gt;&lt;font color=&quot;#080808&quot; style=&quot;font-size: 15px;&quot;&gt;g_udev_client_initable_iface_init()&lt;/font&gt;&lt;/span&gt;&lt;font color=&quot;#080808&quot; style=&quot;font-size: 15px;&quot;&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="-2623" y="1185.59" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-82" target="3MBLwee1-4Opxzsq8bTA-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1045" y="1237.59" />
+              <mxPoint x="-1858" y="1237.59" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-82" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font color=&quot;#080808&quot;&gt;g_udev_client_set_property()&lt;/font&gt;&lt;/span&gt;&lt;font color=&quot;#080808&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-1210.5" y="1016.3999999999999" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-84" target="3MBLwee1-4Opxzsq8bTA-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2142" y="1237.59" />
+              <mxPoint x="-1858" y="1237.59" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-84" value="wnd_proc&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 15px;&quot;&gt;()&lt;/span&gt;&lt;font color=&quot;#080808&quot; style=&quot;font-size: 15px;&quot;&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="-2307" y="987.59" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-86" target="3MBLwee1-4Opxzsq8bTA-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-86" value="wnd_proc窗口过程函数，&lt;br&gt;判断消息类型是否为&amp;nbsp;WM_DEVICECHANGE（设备更改消息），是的话就执行&lt;font style=&quot;border-color: var(--border-color); font-size: 20px;&quot; color=&quot;#080808&quot;&gt;handle_dev_change&lt;/font&gt;()&lt;br&gt;最后调用DefWindowProc调用默认窗口过程为应用程序没有处理的窗口消息提供默认的处理" style="text;strokeColor=none;fillColor=#99CCFF;html=1;fontSize=18;fontStyle=0;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-2564" y="778.59" width="844" height="90.62" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-88" target="3MBLwee1-4Opxzsq8bTA-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-88" value="当旧的priv-&amp;gt;redirecting为True，&lt;br&gt;新的priv-&amp;gt;redirecting为False的时候，&lt;br&gt;即注入热插拔事件以防我们错过设备更改" style="text;strokeColor=none;fillColor=#99CCFF;html=1;fontSize=18;fontStyle=0;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-1700.5" y="1002.81" width="410" height="87.19" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-90" target="3MBLwee1-4Opxzsq8bTA-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-119" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-90" target="3MBLwee1-4Opxzsq8bTA-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-90" value="g_udev_client_class_init&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 15px;&quot;&gt;&lt;font color=&quot;#080808&quot; style=&quot;font-size: 15px;&quot;&gt;()&lt;/font&gt;&lt;/span&gt;&lt;font color=&quot;#080808&quot; style=&quot;font-size: 15px;&quot;&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="-1210.5" y="875" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-92" target="3MBLwee1-4Opxzsq8bTA-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-92" value="g_udev_client_new&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 15px;&quot;&gt;&lt;font color=&quot;#080808&quot; style=&quot;font-size: 15px;&quot;&gt;()&lt;/font&gt;&lt;/span&gt;&lt;font color=&quot;#080808&quot; style=&quot;font-size: 15px;&quot;&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="-1210.5" y="755" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-96">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-626" y="578.2049999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-96" value="在启动过程中，只执行了一次" style="text;strokeColor=none;fillColor=#99CCFF;html=1;fontSize=18;fontStyle=0;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-1081.12" y="551.4100000000001" width="277" height="53.59" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-98" target="3MBLwee1-4Opxzsq8bTA-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-98" value="在 Windows 上，如果与重定向流程并行执行，&lt;br&gt;查询 USB 设备列表可能会返回不一致的结果。 &lt;br&gt;重定向完成后将注入模拟热插拔事件，&lt;br&gt;以处理重定向过程中可能发生的真实设备列表更改。" style="text;strokeColor=none;fillColor=#99CCFF;html=1;fontSize=18;fontStyle=0;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-1514" y="1315.59" width="470" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-102">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1501.5" y="200.9949999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-104">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1261.5" y="171" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-106" target="3MBLwee1-4Opxzsq8bTA-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-106" value="GUdevClient是个接口，&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;实例化的时候通过注册信号监听来重写接口的方法&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Initable类 实现了&amp;nbsp;GUdevClient&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;的接口【GInitable *initable】&lt;/span&gt;" style="text;strokeColor=none;fillColor=#99CCFF;html=1;fontSize=18;fontStyle=0;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-3254" y="1175.59" width="540" height="81.25" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3MBLwee1-4Opxzsq8bTA-112" target="DnNnTcF-sKBcE2seIWBp-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-112" value="spice_usb_device_manager是个接口，&lt;br&gt;实例化的时候通过注册信号监听来重写接口的方法&lt;br&gt;Initable类 实现了&amp;nbsp;SpiceUsbDeviceManage 的接口【GInitable *initable】" style="text;strokeColor=none;fillColor=#99CCFF;html=1;fontSize=18;fontStyle=0;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-1420" y="370" width="615.88" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-118" value="g_udev_client_class_init&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 15px;&quot;&gt;&lt;font color=&quot;#080808&quot; style=&quot;font-size: 15px;&quot;&gt;()&lt;/font&gt;&lt;/span&gt;&lt;font color=&quot;#080808&quot; style=&quot;font-size: 15px;&quot;&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="-1210.5" y="1015" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-120" value="libusb_init&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 15px;&quot;&gt;()&lt;/span&gt;&lt;font color=&quot;#080808&quot; style=&quot;font-size: 15px;&quot;&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="-2750" y="1528.09" width="214" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3MBLwee1-4Opxzsq8bTA-122" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 11.3pt;&quot;&gt;&lt;font face=&quot;Lucida Console&quot;&gt;libusb_init()&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="760" width="205" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
