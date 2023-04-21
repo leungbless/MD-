@@ -1,9 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2023-04-21T08:53:18.592Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.1.4" etag="Y2cO4sWR2TQaQoqRC6Ne" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-21T09:06:50.321Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="xqEffHTYHdEh4xHKRnhL" version="21.1.4" type="github">
   <diagram name="第 1 页" id="at0eOn8UaZJn9p67vgV4">
-    <mxGraphModel>
+    <mxGraphModel dx="1195" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3sd6e73bk_6W03-m1Ayy-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="108" y="290" width="612" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="3sd6e73bk_6W03-m1Ayy-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3sd6e73bk_6W03-m1Ayy-1" target="3sd6e73bk_6W03-m1Ayy-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3sd6e73bk_6W03-m1Ayy-1" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 11.3pt;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;g_signal_emit(self, signals[UEVENT_SIGNAL], 0, dev-&amp;gt;data, add);&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="131" y="390" width="566" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3sd6e73bk_6W03-m1Ayy-3" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;notify_dev_state_change()&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="259" y="320" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3sd6e73bk_6W03-m1Ayy-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="108" y="585" width="612" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="3sd6e73bk_6W03-m1Ayy-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3sd6e73bk_6W03-m1Ayy-5" target="3sd6e73bk_6W03-m1Ayy-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="415" y="900" />
+              <mxPoint x="415" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3sd6e73bk_6W03-m1Ayy-5" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot; face=&quot;Verdana&quot;&gt;spice_usb_device_manager_remove_dev()&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="131" y="685" width="566" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3sd6e73bk_6W03-m1Ayy-6" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;spice_usb_device_manager_uevent_cb()&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="159.5" y="620" width="509" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3sd6e73bk_6W03-m1Ayy-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="900" width="610" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="3sd6e73bk_6W03-m1Ayy-10" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 17px;&quot;&gt;spice_usb_device_manager_find_device()&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="131" y="1000" width="566" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3sd6e73bk_6W03-m1Ayy-11" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;spice_usb_device_manager_remove_dev()&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="159.5" y="935" width="509" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3sd6e73bk_6W03-m1Ayy-12" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 17px;&quot;&gt;disconnect_device_sync&lt;/font&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 17px;&quot;&gt;()&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="131" y="1090" width="566" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3sd6e73bk_6W03-m1Ayy-13" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 17px;&quot;&gt;spice_usb_device_ref&lt;/font&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 17px;&quot;&gt;()&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="131" y="1180" width="566" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3sd6e73bk_6W03-m1Ayy-14" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 17px;&quot;&gt;g_ptr_array_remove&lt;/font&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 17px;&quot;&gt;()&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="131" y="1270" width="566" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3sd6e73bk_6W03-m1Ayy-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3sd6e73bk_6W03-m1Ayy-15" target="3sd6e73bk_6W03-m1Ayy-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3sd6e73bk_6W03-m1Ayy-15" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;font-size: 17px;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;g_signal_emit(self, signals[DEVICE_REMOVED], 0, device);&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="131" y="1360" width="566" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3sd6e73bk_6W03-m1Ayy-16" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 17px;&quot;&gt;spice_usb_device_unref()&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="131" y="1450" width="566" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3sd6e73bk_6W03-m1Ayy-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1340" width="610" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="3sd6e73bk_6W03-m1Ayy-20" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;device_removed_cb()&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="909.5" y="1380" width="509" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
