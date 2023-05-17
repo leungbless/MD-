@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-17T09:22:02.930Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="FYrpGzbCMcW7fENKDhvv" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-17T09:38:05.717Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="FeJgova-3Pfb8iz3sgLB" version="21.2.1" type="github">
   <diagram name="第 1 页" id="EY6AYwfko7_sltbW0h-Z">
     <mxGraphModel dx="4168" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -343,11 +343,32 @@
         <mxCell id="2CJtTAYrKENx-c4gSzAz-113" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;pre style=&quot;color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;Lucida Console&quot; style=&quot;font-size: 20px;&quot;&gt;cd_device_open_stream(unit, filename)&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390.62" y="2730" width="486.25" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="2CJtTAYrKENx-c4gSzAz-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2CJtTAYrKENx-c4gSzAz-115" target="2CJtTAYrKENx-c4gSzAz-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2CJtTAYrKENx-c4gSzAz-115" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;pre style=&quot;color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;Lucida Console&quot; style=&quot;font-size: 20px;&quot;&gt;Windows上&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="2870" width="192.5" height="60" as="geometry" />
+          <mxGeometry x="270" y="2931" width="192.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2CJtTAYrKENx-c4gSzAz-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2CJtTAYrKENx-c4gSzAz-116" target="2CJtTAYrKENx-c4gSzAz-120">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2CJtTAYrKENx-c4gSzAz-116" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;pre style=&quot;color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;Lucida Console&quot; style=&quot;font-size: 20px;&quot;&gt;Linux上&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="800.0000000000001" y="2870" width="192.5" height="60" as="geometry" />
+          <mxGeometry x="800.0000000000001" y="2931" width="192.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2CJtTAYrKENx-c4gSzAz-120" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;pre style=&quot;color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;Lucida Console&quot; style=&quot;font-size: 20px;&quot;&gt;open(unit-&amp;gt;filename, O_RDONLY | O_NONBLOCK);&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="617.8199999999999" y="3090" width="556.87" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2CJtTAYrKENx-c4gSzAz-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2CJtTAYrKENx-c4gSzAz-122" target="2CJtTAYrKENx-c4gSzAz-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2CJtTAYrKENx-c4gSzAz-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2CJtTAYrKENx-c4gSzAz-122" target="2CJtTAYrKENx-c4gSzAz-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2CJtTAYrKENx-c4gSzAz-122" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;检查文件打开状态，然后关闭，&lt;br&gt;然后用gtk函数中的文件打开，检查打开状态&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;" vertex="1" parent="1">
+          <mxGeometry x="441.79999999999995" y="3270" width="383.9" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="2CJtTAYrKENx-c4gSzAz-128" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;pre style=&quot;color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;Lucida Console&quot; style=&quot;font-size: 20px;&quot;&gt;open_file(unit-&amp;gt;filename);&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="191.25" y="3090" width="350" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
