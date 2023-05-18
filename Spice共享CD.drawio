@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-18T01:35:08.020Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="sD56MLB4LCeae4ndzXWD" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-18T01:51:38.405Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="-S3E8Dw0Cc9d6b6TZasH" version="21.3.2" type="github">
   <diagram name="第 1 页" id="EY6AYwfko7_sltbW0h-Z">
-    <mxGraphModel dx="9059" dy="2183" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="14522" dy="5093" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -133,6 +133,9 @@
           <mxGeometry x="1460" y="1385" width="410" height="90" as="geometry" />
         </mxCell>
         <mxCell id="IEMR0kMaVbe7xvYNcToG-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2CJtTAYrKENx-c4gSzAz-39" target="2CJtTAYrKENx-c4gSzAz-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEMR0kMaVbe7xvYNcToG-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2CJtTAYrKENx-c4gSzAz-39" target="IEMR0kMaVbe7xvYNcToG-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2CJtTAYrKENx-c4gSzAz-39" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;pre style=&quot;color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;Lucida Console&quot; style=&quot;font-size: 20px;&quot;&gt;create_proc(be, dev, create_params, err)&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -438,6 +441,33 @@
         </mxCell>
         <mxCell id="IEMR0kMaVbe7xvYNcToG-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2CJtTAYrKENx-c4gSzAz-107" target="IEMR0kMaVbe7xvYNcToG-23">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEMR0kMaVbe7xvYNcToG-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IEMR0kMaVbe7xvYNcToG-26" target="IEMR0kMaVbe7xvYNcToG-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEMR0kMaVbe7xvYNcToG-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IEMR0kMaVbe7xvYNcToG-26" target="IEMR0kMaVbe7xvYNcToG-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEMR0kMaVbe7xvYNcToG-26" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;pre style=&quot;color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-size: 20px;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;Lucida Console&quot;&gt;get_descriptor(edev, LIBUSB_DT_DEVICE, 0, (&lt;span style=&quot;color: rgb(0, 51, 179);&quot;&gt;void &lt;/span&gt;**)&amp;amp;desc, &amp;amp;device_desc_size)&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415.63" y="1817" width="976.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IEMR0kMaVbe7xvYNcToG-28" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;pre style=&quot;color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-size: 20px;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;Lucida Console&quot;&gt;usb_cd_get_descriptor(UsbCd *d, uint8_t type, uint8_t index, void **buffer, uint16_t *size)&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1990" y="1999.5" width="1184.38" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IEMR0kMaVbe7xvYNcToG-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IEMR0kMaVbe7xvYNcToG-31" target="IEMR0kMaVbe7xvYNcToG-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEMR0kMaVbe7xvYNcToG-31" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;pre style=&quot;color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;Lucida Console&quot; style=&quot;font-size: 20px;&quot;&gt;hotplug_callback(be-&amp;gt;hotplug_user_data, dev, TRUE);&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="556.5699999999999" y="2129.5" width="694.37" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IEMR0kMaVbe7xvYNcToG-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IEMR0kMaVbe7xvYNcToG-34" target="IEMR0kMaVbe7xvYNcToG-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEMR0kMaVbe7xvYNcToG-34" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;pre style=&quot;color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;Lucida Console&quot; style=&quot;font-size: 20px;&quot;&gt;spice_usb_device_manager_hotplug_cb(void *user_data, SpiceUsbDevice *dev, gboolean added)&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="342.0300000000001" y="2561" width="1123.43" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IEMR0kMaVbe7xvYNcToG-37" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;pre style=&quot;color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;Lucida Console&quot; style=&quot;font-size: 20px;&quot;&gt;spice_usb_device_manager_hotplug_idle_cb(gpointer user_data)&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="509.77" y="2863.5" width="787.96" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
